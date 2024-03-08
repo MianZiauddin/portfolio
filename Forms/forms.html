@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Course Registration Form </h1>
+    <form>
+        <b>Name:</b> <input type="text" placeholder="First Name"> &nbsp; <input type="text" placeholder="Last Name"> <br><br>
+        <!-- To add some additional space between two words,sentences or modules etc, we use the  "&nbsp" tag -->
+        <b>Institute:</b> <input type="text" placeholder="Enter Institute name"> <br><br>
+        <b>Email:</b> <input type="email" placeholder="@Example.com"> <br><br>
+        <b>Phone No:</b> <input type="text" placeholder="Enter Phone No"> <br><br>
+        <b>Subject:</b> <select >  <!-- to select one module at a time we use "select" tag -->
+            <option value="Enter Subject" selected>Enter Subject</option>
+            <option value="Database Systems">Database Systems</option>
+            <option value="English">English</option>
+            <option value="PST">Pak-study</option>
+            <!-- Always remember when you declare a value in "option" tag you must define it outside the ">"tag to be shown on display -->
+        </select>
+
+        <p>
+            <b> Enter your gender: </b>
+            <input type="radio" name="gender" id="Male">Male
+            <input type="radio" name="gender" id="Female">Female <br><br>
+            
+            Submit your form. <br><br>
+            <input type="submit">
+        </p>
+
+        
+    </form>
+</body>
+</html> 
