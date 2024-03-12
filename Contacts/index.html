@@ -9,12 +9,43 @@
     <a href="../index.html">Home</a>
     <a href="../Projects-Page/index.html">Projects</a>
     <a href="../Skill-Page/index.html">Skills</a>
-    <a href="../Forms/forms.html">Form</a>
-    <h1><ins>Contacts:</ins></h1>
+    <h1><ins>Contact:</ins></h1>
 
     <img src="../Images/contact-logo.jpg" width="30"> <p><b><ins>Contact No:</ins> <br></b>03330988431. <br>03349331013.</p>
 
 
-    <p>You can also contact me on my email: <br> <img src="../Images/Email-logo.webp" width="12" height="12"> <b>ziauddinkakakhel@gmail.com</b></p>
+    <p>You can also contact me on my email: <br> <img src="../Images/Email-logo.webp" width="12" height="12"> <a href="https://www.linkedin.com/in/mian-ziauddin-09630626a/" target="_blank">ziauddinkakakhel@gmail.com</a></p>
+
+    <h1>Course Registration Form </h1>
+
+    <form>
+        <b>Name:</b> <input type="text" placeholder="First Name"> &nbsp; <input type="text" placeholder="Last Name"> <br><br>
+        <!-- To add some additional space between two words,sentences or modules etc, we use the  "&nbsp" tag -->
+        <b>Institute:</b> <input type="text" placeholder="Enter Institute name"> <br><br>
+        <b>Email:</b> <input type="email" placeholder="@Example.com"> <br><br>
+        <b>Phone No:</b> <input type="text" placeholder="Enter Phone No"> <br><br>
+        <b>Subject:</b> <select >  <!-- to select one module at a time we use "select" tag -->
+            <option value="Enter Subject" selected>Enter Subject</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="C++">C++</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <!-- Always remember when you declare a value in "option" tag you must define it outside the ">"tag to be shown on display -->
+        </select> <br><br>
+        <!-- We added a textarea for the feedback section -->
+        <textarea name="comment" cols="15" rows="5" placeholder="Give us your feedback..."></textarea> <br><br>
+
+        <p>
+            <b> Enter your gender: </b>
+            <input type="radio" name="gender" id="Male">Male
+            <input type="radio" name="gender" id="Female">Female <br><br>
+            
+            Submit your form. <br><br>
+            <input type="submit">
+        </p>
+
+        
+    </form>
 </body>
 </html>
